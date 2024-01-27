@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/light_blue"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/llBox"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.25"
+            android:background="@drawable/bottom_round_shape" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".50"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.25"
+
+            android:background="@drawable/top_round_shape" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_round_corner_shape"
+        android:orientation="horizontal"
+        android:padding="5dp"
+
+        android:layout_marginStart="-3dp"
+        android:layout_marginEnd="-2dp"
+        >
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:cardBackgroundColor="#D7CCC8"
+            android:padding="10dp"
+            app:shapeAppearanceOverlay="@style/CircleImageShape">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img2"
+                android:padding="10dp"
+                />
+
+
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="jack"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginStart="12dp"
+            android:textColor="@color/black"
+            android:layout_marginEnd="5dp"
+            android:textSize="22sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
