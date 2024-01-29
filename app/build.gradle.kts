@@ -49,4 +49,13 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     //Glide
     implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation ("com.mig35:carousellayoutmanager:1.4.6")
+    //swipe button
+//    implementation("com.ebanx:swipe-button:0.8.3")
+    //proswipe
+//    implementation("in.shadowfax:proswipebutton:1.2.2")
+
+//    implementation("com.github.maxwell-kimaiyo:Swipe-Animated-Button:0.1.0")
+//    implementation("com.github.MAXDeliveryNG:slideview:1.1.0")
+
 }
