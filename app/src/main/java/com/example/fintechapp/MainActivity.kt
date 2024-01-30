@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.materialCardView.setOnClickListener {
+            val intent=Intent(this,StaticsActivity::class.java)
+            startActivity(intent)
+        }
 
         //
         binding.addContacts.setOnClickListener {

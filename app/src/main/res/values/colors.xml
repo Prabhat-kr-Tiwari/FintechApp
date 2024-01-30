@@ -4,7 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="light_blue">#B3E5FC</color>
     <color name="gray300">#E0E0E0</color>
+    <color name="gray500">#9E9E9E</color>
     <color name="gray200">#EEEEEE</color>
+    <color name="gray600">#757575</color>
 
 
 
@@ -12,4 +14,5 @@
     <color name="sv_button_color_default">#FFFFFF</color>
     <color name="sv_stroke_color_default">#FFFFFF</color>
     <color name="gray300new">#E0E0E0</color>
+    <color name="gray50">#FAFAFA</color>
 </resources>

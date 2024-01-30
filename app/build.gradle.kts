@@ -58,4 +58,8 @@ dependencies {
 //    implementation("com.github.maxwell-kimaiyo:Swipe-Animated-Button:0.1.0")
 //    implementation("com.github.MAXDeliveryNG:slideview:1.1.0")
 
+    //mpachart
+    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
+    implementation("com.androidplot:androidplot-core:1.5.9")
+
 }
